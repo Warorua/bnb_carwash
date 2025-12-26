@@ -1,0 +1,593 @@
+===========================================================
+Change Log for Garage Master v4.6.6 09-12-2025
+===========================================================
+[Bug] Fixed frontendBooking service issue
+[Bug] Fixed console errors in all modules
+[Bug] Fixed stocks shows minus issue
+[Bug] Fixed deleted branch shows issue
+[Bug] Fixed report chart view issue
+[Bug] Fixed edit income issue
+[Bug] Fixed email template console errors
+[Improvement] Mobile App setting menu added
+[Improvement] Added delete feature in partsell module
+[Improvement] Added service charge in observation library
+[Improvement] Added Australia country missing states & cities
+
+===========================================================
+Change Log for Garage Master v4.6.5 27-10-2025
+===========================================================
+[Bug]  Fixed license register issue 
+[Bug]  Fixed ckeditor disable issue 
+[Bug]  Fixed password reset mail sending issue
+[Bug]  Fixed accordian closed issue
+[Bug]  Fixed edit part sell product list issue
+[Bug]  Fixed missing state & city issue
+
+[Improvement] laravel version updated laravel9 to laravel 12
+[Improvement] password reset email notification template added
+[Improvement] New feature selling price with margin,tax and disocunt added in product inventory
+[Improvement] New field tax and discount added in quotation and service module
+[Improvement] Updated quotation & invoice format with tax and discount
+[Improvement] help document menu added in sidebar 
+[Improvement] remove unnecessary commented code 
+[Improvement] changed installation branding theme
+[Improvement] code indention and code structure - using laravel pint
+
+===========================================================
+Change Log for Garage Master v4.6.4 02-09-2025
+===========================================================
+[Bug]  Fixed security related bugs
+[Bug]  Fixed CSP header not set bugs
+[Bug]  Fixed bug supportstaff side service report chart not shows
+[Bug]  Fixed after edit vehicle it not shows in list
+[Bug]  Fix  all design bugs
+[Bug]  Fixed language validation bugs
+[Bug]  Fixed customer side soldpart invoice shows error 
+
+[Improvement] Updated Javascript and css libraries
+
+===========================================================
+Change Log for Garage Master v4.6.3 05-08-2025
+===========================================================
+[Bug]  Fixed security related bugs
+[Bug]  Fixed performance related bugs
+[Bug]  Fixed supplier name shows in select supplier dropdown
+[Bug]  Fixed process job default service charge make 0 in selected checkpoint
+ 
+[improvement] Updated product name validation field
+[improvement] Updated invoice table format
+
+===========================================================
+Change Log for Garage Master v4.6.2 21-07-2025
+===========================================================
+[Improvement] Added View password icon in login page & installation form
+[Improvement] Update price field with accept decimal value
+
+[Bug] Fixed Bug in dashboard
+[Bug] Fixed Responsive design bugs
+[Bug] Fixed session related issues
+[Bug] Fixed add product issue in partsell
+[Bug] Fixed issue in partsell invoice
+[Bug] Fixed Hebrew language bugs
+[Bug] Fixed issue in some currency update
+
+===========================================================
+Change Log for Garage Master v4.6.1 19-06-2025
+===========================================================
+[Improvement] - License reset feature added
+[Improvement] - Feature added:Send service reminder mail before one hour to customer 
+[Improvement] - Feature added:Send service reminder mail before 24 hour to customer
+[Improvement] - Added new country & currencies 
+
+[Bug]  - Fixed responsive issue in service view
+[Bug] - Fixed make email template responsive in mobile view
+[Bug] - Fixed bug getting error on patch update
+[Bug] - Fixed bug when admin view deleted customer services. it gives error
+
+===========================================================
+Change Log for Garage Master v4.6.0 13-06-2025
+===========================================================
+[Improvement] Added search option in observation point - select product
+[Improvement] Added csv import feature in inventory add parts
+[Improvement] Added customer onboarding tab in general settings
+[Improvement] Added Mobile Login feature
+[Improvement] Updated documentation with local installation steps
+
+[Bugs] Fixed in dashboard shows green loader
+[Bugs] Fixed installation issue in localhost (xampp)
+[Bugs] Fixed redirect on new tab when click on product or employee on dashboard
+[Bugs] Fixed language translation issue in frontend booking 
+[Bugs] Fixed language translation issue in Login page
+
+===========================================================
+Change Log for Garage Master v4.5.0 09-05-2025
+===========================================================
+[Improvement]  CSV import Feature added in user module
+[Improvement]  CSV import Feature added in Vehicle module
+[Improvement]  Addons menu added in settings
+[Improvement]  How to videos menu added in settings
+[Improvement]  General setting tab updated 
+[Improvement]  Login page - added Powered By garage master url
+[Improvement]  Integrated addon packages like MJsms & Mjpay
+[Improvement]  Added package configuration inside addon menu
+[Improvement]  Give user view url in user list first name
+[Improvement]   In vehicle add if model is not found then show popup message
+
+[Bugs]  fixed when user add email address in email setting it change in all email template sender mail
+[Bugs]  fixed error in view sampledata in dashboard
+[Bugs]  fixed arabic rtl bugs 
+[Bugs]  fixed report pdf issue in arabic language
+[Bugs]  fixed design bugs
+
+
+===========================================================
+Change Log for Garage Master v4.4.0 24-02-2025
+===========================================================
+[Improvement] Added server-side data processing table in the garage all modules 
+[Improvement] Added Kenya country language  
+[Improvement] Added Kenya country currency
+[Improvement] Apply customer-side booking service in the dashboard
+[Improvement] Added Dashboard: implement customer-side booking service in the dashboard 
+[Improvement] Added Benin country currency CFA
+[Improvement] Add branch field in vehicle add form
+[Bugs]  Fixed Notes - Empty notes are saved and this shows in view pages  
+
+
+===========================================================
+Change Log for Garage Master v4.3.2 23-01-2025
+===========================================================
+[Bugs] Fixed License setting issue 
+
+
+===========================================================
+Change Log for Garage Master v4.3.1 13-01-2025
+===========================================================
+
+[Bugs] Fixed installation Buttons are not visible
+[Bugs] Fixed Customer side partsell view not visible
+[Bugs] Fixed change system name static to dynamic in footer  
+
+===========================================================
+Change Log for Garage Master v4.3.0 27-12-2024
+===========================================================
+[Improvement] Car condition or car damange marker integration in car image
+[Improvement] Export card marked image as pdf or image
+[Improvement] Add Custom error page and replace default error page. Email error/credentials
+[Improvement] Email setting - Add Test email Button for sending test email 
+[Improvement] Add default payment method cash and card
+[Improvement] Dashboard : add sample data -when user click on button it automatically add sample data
+[Improvement] Change Observation Dropdown in All modules 
+[Improvement] Part sell invoice Email Template & Send Email
+[Improvement] Adding Tab menu in Add service - Add jobcard
+[Improvement] Add Terms and condition menu in Quotation Setting
+[Improvement] Shows these terms and condition in invoice
+[Improvement] remove link add attchment in Quotation email
+
+[Bug] Install validation : check .env & .htaccess file exists on root folder - add to installation validation
+[Bug] Fix General Setting Update error Bug
+[Bug] Fix Quotation email  send Bug
+[Bug] Fix Dashboard click on upcoming and paid service icon give error 
+[Bug] Fix Client side view quotation issue 
+[Bug] Fix and Update vehicle detail form label change No of gear to Total Gears
+[Bug] Fix installation setup wrong password redirect issue 
+[Bug] Fix Logo not updated in email template
+[Bugs] Fixed Edit service Print issue 
+[Bugs] Fixed Car Marker count issue 
+===========================================================
+Change Log for Garage Master v4.2.0 21-10-2024
+===========================================================
+[Improvement] Translate MOT module strings in other language.
+[Improvement] Open specific module on "Open In Garage" button click in email
+[Improvement] Add modal popup - select brand label add
+[Improvement] Add modal popup - add validation to select branch or auto select 1st brand
+
+[Bug] Stripe key field limit issue fixed
+[Bug] if we add part from service invoice should be less from inventory - fixed.
+[Bug] cant view stock report & system allows to sell while there is no stock quantity available -fixed.
+[Bug] service charge adds to the observation points but will not count towards total amount in create invoice - fixed.
+[Bug] in pay payment when add amount greater than 1000, it will display error-fixed.
+[Bug] Model dropdown is empty even after adding data-fixed
+[Bug] Service->observation -> amount count bug -fixed
+[Bug] Invoice Pdf-amount count bug fixed
+
+===========================================================
+Change Log for Garage Master v4.1.0 08-08-2024
+===========================================================
+[Bug] Invoice grand total related bug fixed
+
+
+===========================================================
+Change Log for Garage Master v4.0.0 14-06-2024
+===========================================================
+[Improvement] Add multiple notes feature to the following modules:
+- Supplier
+- Product
+- Purchase
+- Customer
+- Vehicle
+- Jobcard
+- Quotation
+- Invoice
+[Improvement] Display the total amount for all invoices within a selected date range in the report module.
+[Improvement] Design an email template for sent mails.
+[Improvement] Add some default observation libraries.
+[Bug] Fix tax issue in the view invoice module.
+
+===========================================================
+Change Log for Garage Master v3.0.7 14-05-2024
+===========================================================
+[Improvement] Added new fields in process job card for upcoming services.
+[Improvement] Updated Stripe library version.
+[Improvement] Added frontend service booking feature.
+[Improvement] Added feature for confirming & rejecting quotations via email.
+[Improvement] Added upcoming service date and status columns in the jobcard list.
+[Improvement] Added service booking link in dashboard calendar.
+[Improvement] Added field in other settings for editing job card after invoice creation.
+[Improvement] Added upcoming services in the report module.
+[Improvement] Added print and Excel options in the report module.
+[Improvement] Added plus button on top for adding users, services, quotations, etc...
+[Improvement] Added feature for managing different branches.
+[Improvement] Added Vehicle Model in the Vehicles tab.
+[Improvement] Added an image field in service creation to capture an image of the vehicle.
+[Bug] Fixed responsive design bugs.
+
+===========================================================
+Change Log for Garage Master v3.0.6 18-04-2024
+===========================================================
+[Improvement] Added Domain Verification Process.
+[Improvement] Updated messages displayed after form data submission.
+[Improvement] Added MOT Test report to vehicle and customer view page.
+[Improvement] Display success message and close popup after saving data.
+[Improvement] Merged identical tables in the invoices.
+[Improvement] Added Documentation link on installation wizard.
+[Bug] Added step-2 form in service edit page.
+[Bug] Fixed design and feature-related bugs.
+[Bug] Fixed RTL bugs.
+
+===========================================================
+Change Log for garage Master v3.0.5 19-03-2024
+===========================================================
+[Bug] Fixed number plate field uniqueness issue in vehicle module.
+[Bug] Fixed dashboard wizard issue for mobile app.
+[Bug] Resolved responsive bugs in add-edit pages.
+[Improvement] Added scroller in view pages navigation bar tab.
+
+===========================================================
+Change Log for garage Master v3.0.4 16-02-2024
+===========================================================
+[Improvement] Added Tanzanian currency & timezone.
+[Bug] Fixed the pdf issue for the mobile app.
+[Bug] Fixed stripe payment issue.
+[Bug] Fixed duplicate job card creation & other feature bugs.
+
+===========================================================
+Change Log for garage Master v3.0.3 20-01-2024
+===========================================================
+[Improvement] Added WhatsApp share button to the invoice and quotation list to send invoice and quotation directly on whatsapp.
+[Bug] Fixed email sending & other feature bugs.
+
+===========================================================
+Change Log for garage Master v3.0.2 17-01-2024
+===========================================================
+[Bug] Fixed Documentation bugs.
+[Improvement] Upgraded php version 8.0 to 8.1.
+
+===========================================================
+Change Log for garage Master v3.0.1 16-01-2024
+===========================================================
+[Bug] Fixed installation wizard bugs.
+
+===========================================================
+Change Log for garage Master v3.0.0 06-01-2024
+===========================================================
+[Improvement] Added a patch to update the new package from the old one.
+[Improvement] Updated system design.
+[Improvement] Add system requirement screen in the installation wizard.
+[Improvement] Add color picker in the "Colors" module.
+[Improvement] Add stock management feature in the stock module.
+[Improvement] Introduced a delete feature for the Observation Library.
+[Bug] Fixed feature related bugs to Observation Points in the Quotation & Jobcard module.
+[Bug] Fixed design and feature related bugs.
+[Bug] Fixed PDF issues for other languages.
+
+===========================================================
+Change Log for garage Master v2.0.3 25-09-2023
+===========================================================
+[Bug] Fixed design and feature related bugs.
+
+===========================================================
+Change Log for garage Master v2.0.2 02-09-2023
+===========================================================
+[Improvement] Update Documentation.
+[Bug] Fixed Installation issues.
+
+===========================================================
+Change Log for garage Master v2.0.1 17-07-2023
+===========================================================
+[Improvement] Create sales invoice directly from list
+[Bug] fixed design and feature related bugs
+
+===========================================================
+Change Log for garage Master v2.0.0 04-07-2023
+===========================================================
+[Bug] fixed design and feature related bugs
+
+===========================================================
+Change Log for garage Master v1.6.2 03-07-2023
+===========================================================
+[Improvement] change some major designs in all pages
+[Improvement] Add whatsapp share button in invoice and quotation list to send invoice and quotation directly on whatsapp
+[Improvement] Add image field in service creation to capture image of the vehicle
+[Improvement] Create service invoice directly from jobcard list
+[Bug] fixed design and feature related bugs
+
+===========================================================
+Change Log for garage Master v1.6.1 06-06-2023
+===========================================================
+[Bug] Fixed Installation issues
+
+===========================================================
+Change Log for garage Master v1.6.0 19-05-2023
+===========================================================
+[Improvement] Display Customer Name in Vehicle List
+[Improvement] Display Vehicle in Customer list
+[Bug] fixed design and feature related bugs
+
+===========================================================
+Change Log for garage Master v1.5.2 29-11-2022
+===========================================================
+[Bug] Fixed Invoice issues(Sale, Service, and Sale Part Invoice)
+[Bug] Fixed Jobcard module issues
+
+===========================================================
+Change Log for garage Master v1.5.1 22-10-2022
+=========================================================== 
+[Improvement] Performed code formating and remove unnecessary code
+[Bug] fixed design and feature related bugs
+
+===========================================================
+Change Log for garage Master v1.5.0 29-09-2022
+===========================================================
+[Improvement] Upgraded bootstrap version 3 to 5 
+[Improvement] Upgraded some libraries version to latest
+[Bug] fixed design and feature related bugs
+
+
+===========================================================
+Change Log for garage Master v1.4.1 12-07-2022
+===========================================================
+
+[Improvement] Added fully responsive support for Android, 
+iPhone device
+[Improvement] Added some extra languages in the general
+settings
+[Bug] Fixed PDF issues for other languages
+
+===========================================================
+Change Log for garage Master v1.4.0 08-06-2022
+===========================================================
+
+[Note] PHP version  >= 8.0 is must required
+[Update] Upgraded laravel framework version from 8 to 9
+[Update] Updated package related issues and fixed some dependency issues
+[Improvement] Added all middle east countries currency in general settings
+[Improvement] Added print and PDF features in quotation module
+[Improvement] Added some extra 20 languages in the general to make it more localized
+[Improvement] Allowd decimal number in tax module
+[Improvement] Added one extra field in tax add module to store tax number
+[Improvement] Make repair category dynamic in service and jobcard module
+[Improvement] added some improvements in quotation module
+[Bug] Most of bugs fixed in the jobcard process and service
+[Bug] Soft delete issues fixed in all module
+[Bug] Soft delete issues fixed in almost all module
+[Bug] Solved language related issues in all module
+[Bug] Solved issues in invoice module PDF and Print time
+
+===========================================================
+Change Log for garage Master v1.3.2 12-04-2022
+===========================================================
+
+[Bug] fixed some comapct variable bugs that comes in branch
+login 
+[Improvement] added AED currency in general settings
+
+===========================================================
+Change Log for garage Master v1.3.1 08-06-2021
+===========================================================
+
+[Feature] Added multiple branch admin role 
+
+===========================================================
+Change Log for garage Master v1.3.0 24-05-2021
+===========================================================
+
+[Feature] Added multiple branching feature 
+[Improvement] Fixing language input issue, inside form field 
+input support all language listed inside 
+(General Setting->Other setting tab->Language Selection)
+
+===========================================================
+Change Log for garage Master v1.2.2 27-04-2021
+===========================================================
+
+[Improvement] Made changes in validation to store other languages
+data in the database
+[Feature] Added Washbay feature in jobcard and service process
+[Improvement] JS Code clean inside all UI files
+[Improvement] Inside all module alert message should display 
+with convert to respected language
+[Bug] Fixed Custom filed validation rules (Inside all Modules)
+[Improvement] make some unnecessary fields optional in some 
+modules
+
+===========================================================
+Change Log for garage Master v1.2.1 30-03-2021
+===========================================================
+[Feature] Improved custom field module with radio and 
+checkbox controles
+[Improvement] Added steps wizard on dashboard to guide the 
+user
+[Improvement] Fixed some laguage translation issues in form
+validation messages  
+[Bug] Fixed custom field module minor issues
+
+===========================================================
+Change Log for garage Master v1.2.0 09-03-2021
+===========================================================
+[Update] Upgraded laravel framework version from 5.8 to 8.0
+[Improvement] Delink vehicle service and vehicle sale module
+[Feature] Added Quotation Module
+[Bug] Fixed sale part stripe issue
+[Bug] Fixed some bugs in invoice module and improved it
+[Bug] Fixed validation message issues
+[Improvement] Improved report module
+[Bug] Fixed some issues in invoice PDF 
+
+===========================================================
+Change Log for garage Master v1.1.8 19-02-2021
+===========================================================
+[Validation] Added Frontend and backend validation in all 
+modules
+[Bug] Sloved all dependency errors
+[Bug] Added soft delete in required modules
+[Improvement] Make price related textboxes editable
+[Bug] Fixed payment module issues
+[Bug] Fixed compact variable issues customer and employee side
+[Bug] Sales part edit issue fixed
+[Improvement] Make some unnecessary fields optional in service 
+and vehicle module
+[Bug] Invoice module status issues fixed
+[Bug] Income module status issues fixed
+
+===========================================================
+Change Log for garage Master v1.1.7 30-12-2020
+===========================================================
+[Quick Fix] fixed some js issue in previuos release
+
+===========================================================
+Change Log for garage Master v1.1.6 29-12-2020
+===========================================================
+[Feature] Added dynamic access rights module and user wise
+[Feature] Added searchable dropdown in some modules
+[Validation] Added product code validation with domain name
+[Bug] Fixed jobcard process related bugs
+[Bug] Fixed stock related bugs 
+[Bug] Fixed some bugs in supplier module
+[Bug] Fixed some bugs in product module
+[Bug] Fixed some design related bugs also in whole project
+
+===========================================================
+Change Log for garage Master v1.1.5 04-09-2020
+===========================================================
+[Feature] Added custom field in all required modules
+[Bug] Language translation related bugs fixed
+
+===========================================================
+Change Log for garage Master v1.1.4 25-08-2020
+===========================================================
+[Feature] Added MOT Test feature in vehicle service module
+[Bug] Fixed all dependency issues 
+[Bug] Fixed Multiple entries issue at the same time of same records
+[Bug] Fixed invoice issues in free service and paid service both
+[Bug] Fixed Some issues at employee and customer side in action buttons in the listing page
+[Bug] Fixed View PDF issue and view modal design issue
+[Bug] Fixed Jobcard issues
+[Bug] Fixed pay with card button issues
+
+===========================================================
+Change Log for garage Master v1.1.3 04-07-2020
+===========================================================
+[Feature] Added Stripe Payment Gateway
+[Bug] Fixed Vehicle module dynamic block delete on click single delete button 
+[Bug] Fixed Jobcard module multiple blocks delete on click single delete button
+[Bug] Sale Part module multiple blocks delete on click single delete button
+[Bug] Fixed all browser issues
+[Bug] Fixed currency symbol issue in invoice view and PDF
+[Bug] Fixed Jobcard issues
+[Bug] Fixed pay with card button issues
+[Bug] Fixed free coupon code dropdown issue
+
+===========================================================
+Change Log for garage Master v1.1.2 11-06-2020
+===========================================================
+[Bug] iPhone and android device responsive issues fixed.
+[Bug] Job card processing issues fixed
+[Bug] In some modules datatable responsive issues fixed
+[Bug] Invoice view issue fixed
+[Bug] In mobile devices some delete buttons are not clickable that is fixed
+[Bug] Vehicle view is not proper some images are not shown properly in-vehicle view
+[Bug] Some colors are not shown in the vehicle view
+[Bug] Some validation issues are fixed in customer and employee module
+[Bug] In sales module quantity should not be taken in minus that fixed
+[Feature] Added Company name in customer module
+[Feature] Added number plate in-vehicle module
+[Feature] Added number plat in service listing so that user can search service by number plat of particular vehicle
+[Feature] Also added number plate in invoice list.
+[Feature] Added vehicle maintenance history in vehicle view
+
+===========================================================
+Change Log for garage Master v1.1.1 27-12-2019
+===========================================================
+- Add Indonesian Language
+
+===========================================================
+Change Log for garage Master v1.1.0 14-10-2019
+===========================================================
+- Upgrade Laravel Framework 5.7 to 5.8
+- Bug Fix and code changes based on letest framework and php version compatible upto 7.3.*
+- Jobcard processing issue fixed
+- User view issue redirect to login screen fixed
+
+===========================================================
+Change Log for garage Master v1.0.0 03-07-2019
+===========================================================
+- New Laravel Project and old package marge,add sale part module
+
+===========================================================
+Change Log for garage Master v9 18-03-2019
+===========================================================
+- Change Installation issue fix
+
+===========================================================
+Change Log for garage Master v8 16-02-2019
+===========================================================
+- Change Documentation in PHP version
+
+===========================================================
+Change Log for garage Master v7 15-02-2019
+===========================================================
+- Email Template Modify
+- Fix Some Issues
+
+===========================================================
+Change Log for garage Master v6 21-01-2019
+===========================================================
+- Upgrade Laravel Framework 5.2 to 5.7
+- Fix Token Issue
+- Bug Fix and code changes based on letest framework and php version
+
+===========================================================
+Change Log for garage Master v5 12-12-2018
+===========================================================
+- Fixed Installtion wizard.
+- Document Updated.
+
+===========================================================
+Change Log for garage Master v4 01-11-2018
+===========================================================
+- Document Updated.
+
+===========================================================
+Change Log for garage Master v3 31-10-2018
+===========================================================
+- Fixed Jobcard Processing.
+
+===========================================================
+Change Log for garage Master v2 29-10-2018
+===========================================================
+- Fixed Installtion wizard.
+
+===========================================================
+Change Log for garage Master v1 09-10-2018
+===========================================================
+-Initial release
